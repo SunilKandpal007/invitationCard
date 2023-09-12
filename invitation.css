@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(3467173.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 550px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top:40px;
+    border-radius: 7px;
+    /* Center div properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    opacity:;
+}
+.main{
+    width: 500px;
+    height: 550px;
+    border: 5px solid rgb(0, 201, 247);
+    border-radius: 6px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.main p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: small;
+    color: rgb(54,0,88);
+}
+
+.top-txt{
+    margin: auto;
+    padding: 25px;
+}
+
+.top-txt h1{
+    text-align: center;
+    color: rgb(54,0,88);
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mid-one{
+    margin: auto;
+    padding: 0;
+    margin-top:30px;
+}
+
+.mid-one h3{
+    color: rgb(0,0,0);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.mid-two{
+    margin: 0;
+    padding: 0;
+}
+
+.mid-two h2{
+    color: rgb(54,0,88);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.mid-two p{
+    text-align: center;
+    color: rgb(0,0,0);
+    font-size: medium;
+}
+
+hr{
+    background-color: rgb(0, 201, 247);
+    border-color: rgb(0, 201, 247);
+    width:25%;
+    height: 3px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bottom-txt{
+    margin-top: 40px;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom-txt p{
+    margin: 0px;
+    padding: 4px;
+    text-align: center;
+    font-size: medium;
+}
